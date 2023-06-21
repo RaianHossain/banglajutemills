@@ -2,6 +2,7 @@ import React from 'react';
 import CategoryCard from '../../components/CategoryCard/CategoryCard';
 import Footer from '../../components/Footer/Footer';
 import HeaderCarousel from '../../components/HeaderCarousel/HeaderCarousel';
+import Messages from '../../components/Messages/Messages';
 import Navbar from '../../components/Navbar/Navbar';
 import Subsidiairies from '../../components/Subsidiaries/Subsidiairies';
 import COLORS from '../../constants/COLORS';
@@ -14,7 +15,7 @@ import '../../styles/landing.css';
 
 const Home = () => {
     return (
-        <div>
+        <div style={{overflow: 'hidden'}}>
             <Navbar/>
 
             <section id="home">
@@ -102,6 +103,10 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            <div className="section-padding">
+                <Messages></Messages>            
+            </div>
             {/* categories ends */}
 
             {/* Subsidiaries starts */}
