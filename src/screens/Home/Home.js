@@ -3,16 +3,13 @@ import CategoryCard from '../../components/CategoryCard/CategoryCard';
 import Footer from '../../components/Footer/Footer';
 import HeaderCarousel from '../../components/HeaderCarousel/HeaderCarousel';
 import Navbar from '../../components/Navbar/Navbar';
+import Subsidiairies from '../../components/Subsidiaries/Subsidiairies';
 import COLORS from '../../constants/COLORS';
 import categories from '../../dummyData/data';
 import aboutProduct from '../../images/about-product.jpg';
 import quality from '../../images/icons/excellence.png';
 import versatile from '../../images/icons/expansion.png';
 import sustainable from '../../images/icons/green-earth.png';
-import bfl from '../../images/sis_concern/bfl.jpeg';
-import sbs from '../../images/sis_concern/sbs.jpeg';
-import tc from '../../images/sis_concern/tc.jpeg';
-import tl from '../../images/sis_concern/tl.jpeg';
 import '../../styles/landing.css';
 
 const Home = () => {
@@ -107,8 +104,8 @@ const Home = () => {
             </section>
             {/* categories ends */}
 
-            {/* team starts */}
-            <section class="team section-padding" id="team">
+            {/* Subsidiaries starts */}
+            {/* <section class="team section-padding" id="team">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -149,8 +146,23 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </section> */}
+            {/* Subsidiaries ends */}   
+
+            <section class="team section-padding" id="team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-header text-center pb-5">
+                                <h2>Our Subsidiaries</h2>
+                                <p>We have four more subsidiary companies </p>
+                            </div>
+                        </div>
+                    </div>
+                    <Subsidiairies></Subsidiairies>         
+                </div>
             </section>
-            {/* team ends */}            
+
             
             
 
