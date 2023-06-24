@@ -23,7 +23,7 @@ const Messages = () => {
                         <div class="card-body">
                             <h5 class="card-title"><strong>Rana Chowdhury</strong></h5>
                             <strong>Managing Director</strong>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text"></p>
                             <a href="#" class="btn" style={{backgroundColor: COLORS.btn_color}}>See Details</a>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const Messages = () => {
                         <div class="card-body">
                             <h5 class="card-title"><strong>Suma Chowdhury</strong></h5>
                             <strong>Chairman</strong>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text"></p>
                             <a href="#" class="btn" style={{backgroundColor: COLORS.btn_color}}>See Details</a>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const Messages = () => {
                         <div class="card-body">
                             <h5 class="card-title"><strong>Subrata Sen (Shuvro)</strong></h5>
                             <strong>Executive Director</strong>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text"></p>
                             <a href="#" class="btn" style={{backgroundColor: COLORS.btn_color}}>See Details</a>
                         </div>
                     </div>
