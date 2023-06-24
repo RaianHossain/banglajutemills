@@ -1,6 +1,7 @@
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import COLORS from '../../constants/COLORS';
+import default_image from '../../images/category/Placeholder_view_vector.svg';
 import chairman from '../../images/chairman.jpeg';
 import president from '../../images/president.jpeg';
 import './Messages.css';
@@ -20,8 +21,8 @@ const Messages = () => {
                     <div class="card" style={{width: '100%'}}>
                         <img src={chairman} class="card-img-top" alt="..." style={{height: '300px'}}/>
                         <div class="card-body">
-                            <h5 class="card-title">Rana Chowdhury</h5>
-                            <small>Managing Director</small>
+                            <h5 class="card-title"><strong>Rana Chowdhury</strong></h5>
+                            <strong>Managing Director</strong>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <a href="#" class="btn" style={{backgroundColor: COLORS.btn_color}}>See Details</a>
                         </div>
@@ -31,8 +32,8 @@ const Messages = () => {
                     <div class="card" style={{width: '100%'}}>
                         <img src={president} class="card-img-top" alt="..." style={{height: '300px'}}/>
                         <div class="card-body">
-                            <h5 class="card-title">Suma Chowdhury</h5>
-                            <small>Chairman</small>
+                            <h5 class="card-title"><strong>Suma Chowdhury</strong></h5>
+                            <strong>Chairman</strong>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <a href="#" class="btn" style={{backgroundColor: COLORS.btn_color}}>See Details</a>
                         </div>
@@ -40,10 +41,10 @@ const Messages = () => {
                 </div>
                 <div className="col-md-3 pt-3 pb-3 ps-5 ps-md-0 pe-5 pe-md-0">
                     <div class="card" style={{width: '100%'}}>
-                        <img src={president} class="card-img-top" alt="..." style={{height: '300px'}}/>
+                        <img src={default_image} class="card-img-top" alt="..." style={{height: '300px'}}/>
                         <div class="card-body">
-                            <h5 class="card-title">Suma Chowdhury</h5>
-                            <small>Chairman</small>
+                            <h5 class="card-title"><strong>Subrata Sen (Shuvro)</strong></h5>
+                            <strong>Executive Director</strong>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <a href="#" class="btn" style={{backgroundColor: COLORS.btn_color}}>See Details</a>
                         </div>
